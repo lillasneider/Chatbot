@@ -1,0 +1,43 @@
+{"intents":[
+  {"tag": "0greetings",
+  "patterns": ["hello", "Hey", "Hi", "good morning", "good afternoon", "good evening", "How is it going?", "whats up", "Yo"],
+  "responses": [  "Hello", "Hello there!"]
+  },
+  {"tag": "9bye",
+  "patterns": ["see ya", "bye", "goodbye", "thank bye", "good day", "see you later", "have a good day", "cya"],
+  "responses": ["Goodbye!", "See you later!", "Have a good day!", "Bye-bye", "Adios"]
+  },
+  {"tag": "0hours",
+  "patterns": ["What time do you open till?", "What are the opening hours?", "What time you closing?", "What time do you open?"],
+  "responses": ["We are open 11am-11pm. Would you like to order a delivery or collection?"]
+  },
+  {"tag": "1delivery",
+  "patterns": ["Can I get a delivery please?", "Id like delivery", "delivery?", "Delivery", "delivery"],
+  "responses": ["Sure, Can I get your address please?", "Of course, Please type your address here"]
+  },
+  {"tag": "2collection",
+  "patterns": ["Can I get a collection please?", "I'd like to collect", "collection?"],
+  "responses": ["Sure, Can I get your name for collection please?", "Of course, Please type your name down for collection please"]
+  },
+  {"tag": "0ordering food",
+  "patterns": ["Do you have any good deals?", "Have you got any cheap deals?", "What deals have got on?"],
+  "responses": ["I do recommend Buy 1 Get 1 free or any size pizza for £9.99 for collection only"]
+  },
+  {"tag": "4pizza",
+  "patterns": ["Can I get Texas BBQ please?", "cheese tomato", "Margarita", "large cheese pizza", "ham and pineapple", "pepperoni pizza", "meaty pizza", "vegetarian pizza", "Yo"],
+  "responses": [  "The item has been added to your chart" ]
+  },
+  {"tag": "8finish ordering",
+  "patterns": ["Thats all", "no more", "I dont want anything else", "im done", "Im ready to place the order"],
+  "responses": [  "Great! Your order will be ready to collect in 10 minutes and you can pay when you arrive in the store, Thank you!"]
+  },
+  {"tag": "2name",
+  "patterns": ["Lilla", "Mark"],
+  "responses": [  "Great! What is your contact number?"]
+  },
+  {"tag": "1address",
+  "patterns": ["Ipswich", "Nacton"],
+    "responses":  ["What is your contact number"]
+  }
+
+]}
