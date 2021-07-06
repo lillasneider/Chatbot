@@ -1,3 +1,2 @@
 # Chatbot
-university project
-the chatbot was a final year project
+The chatbot was a final year project, it can take customer orders in pizza shops
